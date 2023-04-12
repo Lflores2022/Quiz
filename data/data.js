@@ -1,132 +1,102 @@
 export const data =[
 {
-    question: 'Es el lobulo que se encarga del razonamiento, movimiento, emociones y lenguaje',
+    question: 'Cuál es la ropa adecuada para trabajar en un laboratorio',
     choices: [
-        'temporal',
-        'frontal',
-        'occipital',
-        'paretial'
+        'Camiseta y pantalones cortos',
+        'Vestido y zapatos de tacón alto',
+        'Camiseta de manga larga y pantalones largos',
+        'Camiseta de manga larga y pantalones Ajustados'
     ],
-    answer: 'frontal'
+    answer: 'Camiseta de manga larga y pantalones largos'
 },
 {
-    question: 'Es el lobulo que se encarga del tacto, gusto, olfato, presion y temperatura',
+    question: 'EQué se debe hacer si un producto químico entra en contacto con la piel',
     choices: [
-        'temporal',
-        'frontal',
-        'occipital',
-        'paretial'
+        'Lavar con agua fría durante al menos 15 minutos',
+        'Limpiar con agua fría',
+        'Limpiar con agua caliente',
+        'Limpiar con agua Tibia al menos 15 minutos'
     ],
-    answer: 'paretial'
+    answer: 'Lavar con agua fría durante al menos 15 minutos'
 },
 {
-    question: 'Es el lobulo que se encarga de la vision',
+    question: 'Qué debe hacerse si se produce un derrame de sustancias químicas en el laboratorio',
     choices: [
-        'temporal',
-        'frontal',
-        'occipital',
-        'paretial'
+        'Ignorarlo y continuar trabajando',
+        'Limpiarlo inmediatamente',
+        'Dejar que alguien más lo limpie',
+        'Limpiar con un paño humedo'
     ],
-    answer: 'occipital'
+    answer: 'Limpiarlo inmediatamente'
 },
 {
-    question: 'Es el obulo encargado de la audicion, memoria y aprendizaje',
+    question: 'Qué se debe hacer si se rompe un tubo de ensayo en el laboratorio',
     choices: [
-        'temporal',
-        'frontal',
-        'occipital',
-        'paretial'
+        'Recoger los pedazos y tirarlos a la basura normal',
+        'Recoger los pedazos y colocarlos en un contenedor de residuos especiales',
+        'Dejar los pedazos en el suelo para que el personal de limpieza los recoja'
+        
     ],
-    answer: 'temporal'
+    answer: 'Recoger los pedazos y colocarlos en un contenedor de residuos especiales'
 },
 {
-    question: 'este neurotransmisor genera, te mantiene alerta y te brinda motivacion',
+    question: 'ué debe hacerse antes de usar cualquier equipo en el laboratorio',
     choices: [
-        'endorfina',
-        'dopamina',
-        'glutamato',
-        'adrenalina'
+        'Leer el manual de instrucciones',
+        'Pedirle a alguien que lo use por ti',
+        'Usarlo sin leer las instrucciones',
+        'Hace lo que los demas hacen'
     ],
-    answer: 'adrenalina'
+    answer: 'Leer el manual de instrucciones'
 },
 {
-    question: 'este neurotransmisor te da inhibición del dolor y te da placer',
+    question: 'Qué tipo de calzado es adecuado para trabajar en un laboratorio',
     choices: [
-        'endorfina',
-        'dopamina',
-        'glutamato',
-        'adrenalina'
+        'Sandalias abiertas',
+        'Zapatos cerrados con suelas antideslizantes',
+        'Zapatos deportivos',
+        'Zapatos cerrados con suelas antideslizantes con casquillo'
     ],
-    answer: 'endorfina'
+    answer: 'Zapatos cerrados con suelas antideslizantes'
 },
 {
-    question: 'este neurotransmisor se encarga del estado de animo, deseo sexual y te matiene alerta',
+    question: 'Qué se debe hacer con los residuos químicos después de su uso en el laboratorio',
     choices: [
-        'endorfina',
-        'noradrenalina',
-        'oxitocina',
-        'adrenalina'
+        'eTirarlos en la basura normal',
+        'Tirarlos en el fregadero',
+        'Disponer de ellos según los procedimientos establecidos en el laboratorio'
+        
     ],
-    answer: 'noradrenalina'
+    answer: 'Disponer de ellos según los procedimientos establecidos en el laboratorio'
 },
 {
-    question: 'este neurotransmisor te brinda memoria, aprendizaje y estimulación muscular',
+    question: 'Qué debe hacerse si se produce un incendio en el laboratorio',
     choices: [
-        'adrenalina',
-        'oxitocina',
-        'glutamato',
-        'acelticolina'
+        'Intentar apagarlo con agua',
+        'Llamar a los servicios de emergencia y evacuar el laboratorio',
+        'Ignorarlo y continuar trabajando',
+        'a Llamar a los servicios de emergencia y Quedarse en el laboratorio'
     ],
-    answer: 'acelticolina'
+    answer: ' Llamar a los servicios de emergencia y evacuar el laboratorio'
 },
 {
-    question: 'este neurotransmisor equilibra el control de emociones',
+    question: 'Qué se debe hacer antes de manipular cualquier sustancia química en el laboratorio',
     choices: [
-        'endorfina',
-        'dopamina',
-        'cocaina',
-        'adrenalina'
+        'Leer la etiqueta y familiarizarse con sus propiedades',
+        'Abrir la botella y olerla para conocer su olora',
+        'Preguntar a un compañero de trabajo sobre la sustancia química'
+        
     ],
-    answer: 'dopamina'
+    answer: 'Leer la etiqueta y familiarizarse con sus propiedades'
 },
 {
-    question: 'este neurotransmisor emite memoria de aprendizaje y razonamiento',
+    question: 'Qué debe hacerse después de usar un microscopio en el laboratorio',
     choices: [
-        'serotonina',
-        'gaba',
-        'glutamato',
-        'adrenalina'
+        'Dejarlo en la mesa',
+        'Cubrir con una funda protectora y devolverlo a su lugar de almacenamiento.',
+        'Desarmarlo y guardarlo en un armario cerrado'
+        
     ],
-    answer: 'glutamato'
-},
-{
-    question: 'este neurotransmisor crea una balance emocional, regula el apetito, deseo sexual, temperatura y sueño',
-    choices: [
-        'endorfina',
-        'noradrenalina',
-        'serotonina',
-        'adrenalina'
-    ],
-    answer: 'serotonina'
-},
-{
-    question: 'este neurotransmisor crea concentracion, sueño y ansiedad',
-    choices: [
-        'endorfina',
-        'gaba',
-        'oxitocina',
-        'glutamato'
-    ],
-    answer: 'gaba'
-},
-{
-    question: 'este neurotransmisor se relaciona con vínculos afectivos, intimidad, confianza y fidelidad',
-    choices: [
-        'endorfina',
-        'gaba',
-        'oxitocina',
-        'glutamato'
-    ],
-    answer: 'oxitocina'
+    answer: 'Cubrir con una funda protectora y devolverlo a su lugar de almacenamiento.'
 },
 ]
