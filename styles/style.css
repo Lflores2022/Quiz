@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-body{
+.container__quiz{
     background-color: #272343;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 95.2vh;
 }
 
 .quiz{
